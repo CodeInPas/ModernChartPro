@@ -63,3 +63,28 @@ begin
   BackgroundColor := $00E16941; // TColor Format
   BorderWidth := 2;
 end;
+```
+
+---
+## ☕ Support the Project
+
+If you find **ModernChartPro** helpful and want to support its ongoing development, consider buying me a coffee or sending a tip. Any support is deeply appreciated!
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20Me%20a%20Coffee-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://Ko-fi.com/ainovasinusantara)
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/KangOz)
+
+> **💡 Your support keeps the momentum going!**  
+> Every contribution directly fuels my passion, energy, and motivation to continuously build, maintain, and release even more useful open-source desktop applications for the developer community.
+
+
+## 📄 License
+
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute this library for both personal and commercial projects. See the `LICENSE` file for more information.
+
+---
+
+## 🙌 Acknowledgments
+
+* [ChartJS](https://www.chartjs.org/) - For the incredible design system inspiration, color palettes, and aesthetics.
+* [BGRABitmap](https://wiki.freepascal.org/BGRABitmap) - An amazing graphics library that enables transparent rendering and anti-aliasing in Lazarus.
+* [streamlinehq](https://www.streamlinehq.com/icons/tabler-line?search=button&icon=ico_m1dJb9k6hjHfcTMP) - Visual icon references for the Component Palette.
