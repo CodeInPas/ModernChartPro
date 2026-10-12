@@ -6,7 +6,7 @@
 
 **ModernChartPro** is a modern, lightweight, and interactive data visualization component library for Lazarus / Free Pascal. Built on top of the `BGRABitmap` foundation, this component offers extremely smooth graphic rendering (anti-aliasing), transparency support (alpha blending), and interactive animations (hover tooltips) similar to modern web-based charting libraries (like Chart.js).
 
-<img width="1355" height="686" alt="mc" src="https://github.com/user-attachments/assets/0988185e-c4d3-4292-8834-fcde499a9d62" />
+<img width="1000" height="586" alt="mc" src="https://github.com/user-attachments/assets/0988185e-c4d3-4292-8834-fcde499a9d62" />
 
 
 ## ✨ Key Features
