@@ -1,0 +1,475 @@
+object frmDemo: TfrmDemo
+  Left = 350
+  Height = 700
+  Top = 100
+  Width = 998
+  Caption = 'ModernChartPro - Conventional Demo'
+  ClientHeight = 700
+  ClientWidth = 998
+  Position = poScreenCenter
+  LCLVersion = '4.8.0.0'
+  WindowState = wsMaximized
+  OnCreate = FormCreate
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 480
+    Top = 0
+    Width = 998
+    ActivePage = TabBar
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = tpBottom
+    object TabBar: TTabSheet
+      Caption = 'Bar Chart'
+      ClientHeight = 452
+      ClientWidth = 990
+      object BarChart1: TMCBarChart
+        Left = 15
+        Height = 422
+        Top = 15
+        Width = 960
+        Datasets = <        
+          item
+            LabelName = 'Demo Data'
+            DataValues = '45,-20,60,80,-30,50'
+            BackgroundColor = 16758465
+          end>
+        Align = alClient
+        ParentColor = False
+        Labels.Strings = (
+          'Jan'
+          'Feb'
+          'Mar'
+          'Apr'
+          'May'
+          'Jun'
+        )
+        Title = 'Bar Chart Demo'
+        TitleFont.Color = 3355443
+        TitleFont.Height = -19
+        TitleFont.Style = [fsBold]
+        ForceYMax = 100
+        DataLabelFont.Color = clGray
+        DataLabelFont.Height = -12
+        TooltipFont.Color = clWhite
+        TooltipFont.Height = -13
+        BorderSpacing.Around = 15
+      end
+    end
+    object TabHBar: TTabSheet
+      Caption = 'Horizontal Bar'
+      ClientHeight = 452
+      ClientWidth = 990
+      object HBarChart1: TMCHorizontalBarChart
+        Left = 0
+        Height = 452
+        Top = 0
+        Width = 990
+        Datasets = <        
+          item
+            LabelName = 'Demo Data'
+            DataValues = '45,-20,60,80,-30,50'
+            BackgroundColor = 16758465
+          end>
+        Align = alClient
+        ParentColor = False
+        Labels.Strings = (
+          'Jan'
+          'Feb'
+          'Mar'
+          'Apr'
+          'May'
+          'Jun'
+        )
+        Title = 'Horizontal Bar Demo'
+        TitleFont.Color = 3355443
+        TitleFont.Height = -19
+        TitleFont.Style = [fsBold]
+        ForceYMax = 100
+        DataLabelFont.Color = clGray
+        DataLabelFont.Height = -12
+        TooltipFont.Color = clWhite
+        TooltipFont.Height = -13
+      end
+    end
+    object TabStacked: TTabSheet
+      Caption = 'Stacked Bar'
+      ClientHeight = 452
+      ClientWidth = 990
+      object StackedChart1: TMCStackedBarChart
+        Left = 15
+        Height = 422
+        Top = 15
+        Width = 960
+        Datasets = <        
+          item
+            LabelName = 'Demo Data'
+            DataValues = '45,-20,60,80,-30,50'
+            BackgroundColor = 16758465
+          end>
+        Align = alClient
+        ParentColor = False
+        Labels.Strings = (
+          'Jan'
+          'Feb'
+          'Mar'
+          'Apr'
+          'May'
+          'Jun'
+        )
+        Title = 'Stacked Bar Demo'
+        TitleFont.Color = 3355443
+        TitleFont.Height = -19
+        TitleFont.Style = [fsBold]
+        ForceYMax = 100
+        DataLabelFont.Color = clGray
+        DataLabelFont.Height = -12
+        TooltipFont.Color = clWhite
+        TooltipFont.Height = -13
+        BorderSpacing.Around = 15
+      end
+    end
+    object TabLine: TTabSheet
+      Caption = 'Line Chart'
+      ClientHeight = 452
+      ClientWidth = 990
+      object LineChart1: TMCLineChart
+        Left = 15
+        Height = 422
+        Top = 15
+        Width = 960
+        Datasets = <        
+          item
+            LabelName = 'Demo Data'
+            DataValues = '45,-20,60,80,-30,50'
+            BackgroundColor = 16758465
+            BorderRadius = 5
+          end>
+        Align = alClient
+        ParentColor = False
+        Labels.Strings = (
+          'Jan'
+          'Feb'
+          'Mar'
+          'Apr'
+          'May'
+          'Jun'
+        )
+        Title = 'Line Chart Demo'
+        TitleFont.Color = 3355443
+        TitleFont.Height = -19
+        TitleFont.Style = [fsBold]
+        ForceYMax = 100
+        DataLabelFont.Color = clGray
+        DataLabelFont.Height = -12
+        TooltipFont.Color = clWhite
+        TooltipFont.Height = -13
+        BorderSpacing.Around = 15
+      end
+    end
+    object TabArea: TTabSheet
+      Caption = 'Area Chart'
+      ClientHeight = 452
+      ClientWidth = 990
+      object AreaChart1: TMCAreaChart
+        Left = 15
+        Height = 422
+        Top = 15
+        Width = 960
+        Datasets = <        
+          item
+            LabelName = 'Demo Data'
+            DataValues = '45,-20,60,80,-30,50'
+            BackgroundColor = 16758465
+            BorderRadius = 5
+          end>
+        Align = alClient
+        ParentColor = False
+        Labels.Strings = (
+          'Jan'
+          'Feb'
+          'Mar'
+          'Apr'
+          'May'
+          'Jun'
+        )
+        Title = 'Area Chart Demo'
+        TitleFont.Color = 3355443
+        TitleFont.Height = -19
+        TitleFont.Style = [fsBold]
+        ForceYMax = 100
+        DataLabelFont.Color = clGray
+        DataLabelFont.Height = -12
+        TooltipFont.Color = clWhite
+        TooltipFont.Height = -13
+        BorderSpacing.Around = 15
+      end
+    end
+    object TabPie: TTabSheet
+      Caption = 'Pie Chart'
+      ClientHeight = 452
+      ClientWidth = 990
+      object PieChart1: TMCPieChart
+        Left = 15
+        Height = 422
+        Top = 15
+        Width = 960
+        Datasets = <        
+          item
+            LabelName = 'Demo Data'
+            DataValues = '45,-20,60,80,-30,50'
+            BackgroundColor = 16758465
+            BorderRadius = 5
+          end>
+        Align = alClient
+        ParentColor = False
+        Labels.Strings = (
+          'Jan'
+          'Feb'
+          'Mar'
+          'Apr'
+          'May'
+          'Jun'
+        )
+        Title = 'Pie Chart Demo'
+        TitleFont.Color = 3355443
+        TitleFont.Height = -19
+        TitleFont.Style = [fsBold]
+        ForceYMax = 100
+        DataLabelFont.Color = clGray
+        DataLabelFont.Height = -12
+        TooltipFont.Color = clWhite
+        TooltipFont.Height = -13
+        BorderSpacing.Around = 15
+      end
+    end
+    object TabRadar: TTabSheet
+      Caption = 'Radar Chart'
+      ClientHeight = 452
+      ClientWidth = 990
+      object RadarChart1: TMCRadarChart
+        Left = 15
+        Height = 422
+        Top = 15
+        Width = 960
+        Datasets = <        
+          item
+            LabelName = 'Demo Data'
+            DataValues = '45,-20,60,80,-30,50'
+            BackgroundColor = 16758465
+            BorderRadius = 5
+          end>
+        Align = alClient
+        ParentColor = False
+        Labels.Strings = (
+          'Jan'
+          'Feb'
+          'Mar'
+          'Apr'
+          'May'
+          'Jun'
+        )
+        Title = 'Radar Chart Demo'
+        TitleFont.Color = 3355443
+        TitleFont.Height = -19
+        TitleFont.Style = [fsBold]
+        ForceYMax = 100
+        DataLabelFont.Color = clGray
+        DataLabelFont.Height = -12
+        TooltipFont.Color = clWhite
+        TooltipFont.Height = -13
+        BorderSpacing.Around = 15
+      end
+    end
+    object TabCombo: TTabSheet
+      Caption = 'Combo Chart'
+      ClientHeight = 452
+      ClientWidth = 990
+      object ComboChart1: TMCComboChart
+        Left = 15
+        Height = 422
+        Top = 15
+        Width = 960
+        Datasets = <        
+          item
+            LabelName = 'Demo Data'
+            DataValues = '45,-20,60,80,-30,50'
+            BackgroundColor = 16758465
+          end>
+        Align = alClient
+        ParentColor = False
+        Labels.Strings = (
+          'Jan'
+          'Feb'
+          'Mar'
+          'Apr'
+          'May'
+          'Jun'
+        )
+        Title = 'Combo Chart Demo'
+        TitleFont.Color = 3355443
+        TitleFont.Height = -19
+        TitleFont.Style = [fsBold]
+        ForceYMax = 100
+        DataLabelFont.Color = clGray
+        DataLabelFont.Height = -12
+        TooltipFont.Color = clWhite
+        TooltipFont.Height = -13
+        BorderSpacing.Around = 15
+      end
+    end
+    object TabBubble: TTabSheet
+      Caption = 'Bubble Chart'
+      ClientHeight = 452
+      ClientWidth = 990
+      object BubbleChart1: TMCBubbleChart
+        Left = 15
+        Height = 422
+        Top = 15
+        Width = 960
+        Datasets = <        
+          item
+            LabelName = 'Demo Data'
+            DataValues = '45,-20,60,80,-30,50'
+            BackgroundColor = 16758465
+            BorderRadius = 5
+          end>
+        Align = alClient
+        ParentColor = False
+        Labels.Strings = (
+          'Jan'
+          'Feb'
+          'Mar'
+          'Apr'
+          'May'
+          'Jun'
+        )
+        Title = 'Bubble Chart Demo'
+        TitleFont.Color = 3355443
+        TitleFont.Height = -19
+        TitleFont.Style = [fsBold]
+        ForceYMax = 100
+        DataLabelFont.Color = clGray
+        DataLabelFont.Height = -12
+        TooltipFont.Color = clWhite
+        TooltipFont.Height = -13
+        BorderSpacing.Around = 15
+      end
+    end
+    object TabScatter: TTabSheet
+      Caption = 'Scatter Chart'
+      ClientHeight = 452
+      ClientWidth = 990
+      object ScatterChart1: TMCScatterChart
+        Left = 15
+        Height = 422
+        Top = 15
+        Width = 960
+        Datasets = <        
+          item
+            LabelName = 'Demo Data'
+            DataValues = '45,-20,60,80,-30,50'
+            BackgroundColor = 16758465
+            BorderRadius = 5
+          end>
+        Align = alClient
+        ParentColor = False
+        Labels.Strings = (
+          'Jan'
+          'Feb'
+          'Mar'
+          'Apr'
+          'May'
+          'Jun'
+        )
+        Title = 'Scatter Chart Demo'
+        TitleFont.Color = 3355443
+        TitleFont.Height = -19
+        TitleFont.Style = [fsBold]
+        ForceYMax = 100
+        DataLabelFont.Color = clGray
+        DataLabelFont.Height = -12
+        TooltipFont.Color = clWhite
+        TooltipFont.Height = -13
+        BorderSpacing.Around = 15
+      end
+    end
+    object TabCandle: TTabSheet
+      Caption = 'Candlestick'
+      ClientHeight = 452
+      ClientWidth = 990
+      object CandleChart1: TMCCandlestickChart
+        Left = 15
+        Height = 422
+        Top = 15
+        Width = 960
+        Datasets = <        
+          item
+            LabelName = 'Demo Data'
+            DataValues = '45,-20,60,80,-30,50'
+            BackgroundColor = 16758465
+            BorderRadius = 5
+          end>
+        Align = alClient
+        ParentColor = False
+        Labels.Strings = (
+          'Jan'
+          'Feb'
+          'Mar'
+          'Apr'
+          'May'
+          'Jun'
+        )
+        Title = 'Candlestick Chart Demo'
+        TitleFont.Color = 3355443
+        TitleFont.Height = -19
+        TitleFont.Style = [fsBold]
+        ForceYMax = 100
+        DataLabelFont.Color = clGray
+        DataLabelFont.Height = -12
+        TooltipFont.Color = clWhite
+        TooltipFont.Height = -13
+        BorderSpacing.Around = 15
+      end
+    end
+  end
+  object PanelBottom: TPanel
+    Left = 0
+    Height = 220
+    Top = 480
+    Width = 998
+    Align = alBottom
+    BorderWidth = 10
+    ClientHeight = 220
+    ClientWidth = 998
+    TabOrder = 1
+    object BtnUpdate: TButton
+      Left = 17
+      Height = 43
+      Top = 160
+      Width = 964
+      Align = alBottom
+      BorderSpacing.Around = 6
+      Caption = 'UPDATE CHARTS'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      OnClick = BtnUpdateClick
+    end
+    object GridData: TStringGrid
+      Left = 17
+      Height = 137
+      Top = 17
+      Width = 964
+      Align = alClient
+      BorderSpacing.Around = 6
+      ColCount = 10
+      DefaultColWidth = 75
+      Flat = True
+      Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goAlwaysShowEditor, goSmoothScroll]
+      RowCount = 6
+      TabOrder = 1
+    end
+  end
+end
