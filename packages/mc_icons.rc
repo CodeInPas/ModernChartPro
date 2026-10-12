@@ -1,0 +1,12 @@
+TMCBARCHART BITMAP "icons/tmcbarchart.bmp"
+TMCHORIZONTALBARCHART BITMAP "icons/tmchorizontalbarchart.bmp"
+TMCSTACKEDBARCHART BITMAP "icons/tmcstackedbarchart.bmp"
+TMCLINECHART BITMAP "icons/tmclinechart.bmp"
+TMCBUBBLECHART BITMAP "icons/tmcbubblechart.bmp"
+TMCCOMBOCHART BITMAP "icons/tmccombochart.bmp"
+TMCPIECHART BITMAP "icons/tmcpiechart.bmp"
+TMCRADARCHART BITMAP "icons/tmcradarchart.bmp"
+TMCCANDLESTICKCHART BITMAP "icons/tmccandlestickchart.bmp"
+TMCAREACHART BITMAP "icons/tmcareachart.bmp"
+TMCSCATTERCHART BITMAP "icons/tmcscatterchart.bmp"
+
