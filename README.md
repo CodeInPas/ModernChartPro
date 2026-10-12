@@ -1,3 +1,6 @@
+# Praise
+Praise Only To God
+
 # 📊 ModernChartPro for Lazarus
 
 ![Lazarus Supported](https://img.shields.io/badge/Lazarus-2.0%2B-blue.svg)
